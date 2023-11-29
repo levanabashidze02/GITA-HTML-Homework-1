@@ -1,1 +1,0 @@
-# GITA-Homework-1

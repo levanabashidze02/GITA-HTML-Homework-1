@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieNews</title>
+</head>
+<body style="background-color: aliceblue;">
+    <!-- Down here are the title and navbar divisions -->
+    <div style="display: flex; justify-content: center; font-family: 'Courier New', Courier, monospace;">
+        <h1>
+            <a href="index.html">
+            MovieNews - a Movie Aggregator</h1>
+        </a>
+    </div>
+
+    <div style="display: flex; justify-content: center; font-family: 'Courier New', Courier, monospace;"> 
+        <ul style="list-style: none; display: flex; gap: 50px;">
+            <li>
+                <a href="index.html">
+                    <h2>Main Page</h2>
+                </a>
+            </li>
+            <li>
+                <a href="#Movies">
+                    <h2>Movies</h2>
+                </a>
+            </li>
+            <li>
+                <a href="blog.html">
+                    <h2>Blog</h2>
+                </a>
+            </li>
+            <li>
+                <a href="#Contact">
+                    <h2>Contact</h2>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <hr style="color: red;">
+    <!-- Here is the division of a main website image -->
+    <div>
+        <img
+        width="75%"
+        style="display: flex; margin-left: auto; margin-right: auto; align-self: center;"
+        src="./Media/Barbenheimer.png"
+        alt="Merged Poster for Barbie (2023) and Oppenheimer (2023)"/>
+    </div>
+
+    <hr width="90%" style="color: red;">
+    <!-- Division for Recently Released Movie List -->
+    <h3 style="display: flex; justify-content: center; align-self: center; font-family: 'Courier New', Courier, monospace;">Currently Streaming</h3>
+    <div id="Movies" style="display: flex; justify-content: center; margin-left: auto; margin-right: auto; font-family: 'Courier New', Courier, monospace;"> 
+        <ul style="list-style: none; display: flex; gap: 50px;">
+            <li>
+               <dt style="display: flex; justify-content:  center; font-weight: bold;"> <a href="blog.html#Midsommar">Midsommar</a></dt>
+               <img
+               width="200px"
+               src="./Media/midsommar.avif"
+               alt="Midsommar Poster">
+            </li>
+            <li>
+                <dt style="display: flex; justify-content:  center; font-weight: bold;"><a href="blog.html#PoorThings">Poor Things</a></dt></dt>
+                <img
+                width="200px"
+                src="./Media/poorthings.png"
+                alt="Poor Things Poster">
+            </li>
+            <li>
+                <dt style="display: flex; justify-content:  center; font-weight: bold;"><a href="blog.html#Saltburn">Saltburn</a></dt></dt>
+                <img
+                width="200px"
+                height="auto"
+                src="./Media/saltburn.jpg"
+                alt="Saltburn Poster">
+            </li>
+        </ul>
+    </div>
+
+    <hr width="90%" style="color: red;">
+    <!-- Division for Contact Information -->
+    <div id="Contact">
+        <h3 style="display: flex; justify-content: center; font-family: 'Courier New', Courier, monospace;">Contact Us</h3>
+        <p style="display: flex; justify-content: center; width: 50%; margin-left: auto; margin-right: auto; text-align: justify; font-family: 'Courier New', Courier, monospace;">MovieNews, born in the heart of Georgia, is your go-to cinematic companion. As a premier movie aggregator, we curate the latest news, reviews, and trailers, ensuring you stay immersed in the world of film. Discover, engage, and celebrate the magic of movies with MovieNews!</p>
+        <p style="display: flex; justify-content: center; width: 50%; margin-left: auto; margin-right: auto; text-align: justify; font-weight: bold; font-family: 'Courier New', Courier, monospace;">Find us on the map!</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1394.8277600378742!2d42.714908536789814!3d42.20296559267251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405cedb5a3c7da45%3A0x2227abd39f054748!2sKIU%20Dormitory%20%7C%20Building%20G%20%7C!5e0!3m2!1sen!2sge!4v1701202492507!5m2!1sen!2sge" width="50%" height="450" style="display: flex; margin-left: auto; margin-right: auto; align-self: center;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p style="display: flex; justify-content: center; width: 50%; margin-left: auto; margin-right: auto; text-align: justify; font-weight: bold; font-family: 'Courier New', Courier, monospace;">Or call us!</p>
+        <p style="display: flex; justify-content: center; width: 50%; margin-left: auto; margin-right: auto; text-align: justify; font-family: 'Courier New', Courier, monospace;"><a href="tel:+995 995 995 995" target="_blank">+995 995 995 995</a></p>
+    </div>
+</body>
+</html>
